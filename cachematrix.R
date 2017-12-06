@@ -42,6 +42,8 @@ cacheSolve <- function(x, ...) {
     x$setinv(i)
     i
 }
+
+#test code
 test1 <- matrix(c(1,2,3,4),2,2)
 my_Matrix <- makeCacheMatrix(test1)
 cacheSolve(my_Matrix)
